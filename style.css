@@ -45,6 +45,9 @@ h2 {
     margin: 10px 0;
     border: 3px solid #ffffff35;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 input, button {
@@ -98,7 +101,7 @@ p span {
     }
     
     input {
-        width: 57%;
+        width: 55%;
     }
 
     button {

@@ -84,12 +84,17 @@ p span {
 
 @media (max-width: 620px) {
 
+    h2 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
     .images{
         grid-template-columns: repeat(1, 1fr);
     }
 
     .prompt {
-        width: 350px;
+        width: 300px;
     }
     
     input {
